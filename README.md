@@ -1,4 +1,4 @@
-# zephyrus开源discuz插件系列之炫彩用户名
+# 个人开源discuz插件之炫彩用户名
 discuz炫彩用户名color_cname插件使用说明
 
 0x01.Download zip 或者git clone https://github.com/zephyruslove/color_cname.git
