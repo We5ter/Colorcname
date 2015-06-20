@@ -21,4 +21,4 @@ discuz炫彩用户名color_cname插件使用说明
 
 ![image](https://github.com/zephyruslove/color_cname/blob/master/color2.png)
 
-@author zephyrus 请注意保护版权
+@author zephyrus@starstudio 请注意保护版权
