@@ -1,0 +1,23 @@
+<ul class="tb cl">
+<li<!--{if !$opp}--> class="a"<!--{/if}-->><a href="home.php?mod=spacecp&ac=plugin&id=color_cname:cname">$t_myusername</a></li>
+<li<!--{if $opp=='cshop'}--> class="a"<!--{/if}-->><a href="home.php?mod=spacecp&ac=plugin&id=color_cname:cname&pluginop=cshop">$t_cshop</a></li>
+</ul>
+<!--{if $opp=='cshop'}-->
+<p class="tbmu mbm">$tipcshop</p>
+<table cellspacing="0" cellpadding="0" class="dt mtm">
+<thead class="alt">
+<tr><td>$lee</td><td>$ld</td><td>$lp</td><td width="100">$lh</td></tr>
+</thead><tbody>$tscnn</tbody></table>
+<!--{elseif $opp==''}-->
+<p class="tbmu mbm">$tip</p>
+<table cellspacing="0" cellpadding="0" class="tfm" id="profilelist">
+<tbody><tr>
+<th>{lang username}</th>
+<td>$username</td>
+</tr>
+<tr>
+<th>$buydate</th>
+<td>$tbuydate</td>
+</tr>
+</tbody></table>
+<!--{/if}-->

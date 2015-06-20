@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X3]]></item>
+	<item id="Time"><![CDATA[2014-12-16 17:02]]></item>
+	<item id="From"><![CDATA[Discuz! Board (http://bbs.uestc.edu.cn./)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[炫彩用户名]]></item>
+			<item id="identifier"><![CDATA[color_cname]]></item>
+			<item id="description"><![CDATA[管理员可在后台炫彩商店增加及设置价格。]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[color_cname/]]></item>
+			<item id="copyright"><![CDATA[starstudio]]></item>
+			<item id="version"><![CDATA[1.0]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[cshop]]></item>
+					<item id="menu"><![CDATA[商店]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[cname]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="2">
+					<item id="name"><![CDATA[cname]]></item>
+					<item id="menu"><![CDATA[炫彩用户名]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[7]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X2.5,X3]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[开启商店]]></item>
+				<item id="description"><![CDATA[关闭商店后会员将无法访问炫彩商店，但是已购买用户不受影响！]]></item>
+				<item id="variable"><![CDATA[onoff]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[关闭商店的原因]]></item>
+				<item id="description"><![CDATA[关闭商店后，用户访问炫彩商店的提示文字！（本设置仅在关闭炫彩商店后生效）]]></item>
+				<item id="variable"><![CDATA[offinfo]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[非常抱歉，出了点问题，请稍后访问！]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[购买积分]]></item>
+				<item id="description"><![CDATA[设置用户用于购买炫彩用户名的金币种类]]></item>
+				<item id="variable"><![CDATA[cextcredit]]></item>
+				<item id="type"><![CDATA[extcredit]]></item>
+				<item id="value"><![CDATA[2]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[4]]></item>
+				<item id="title"><![CDATA[积分不足提示文字]]></item>
+				<item id="description"><![CDATA[积分不足时提示的文字]]></item>
+				<item id="variable"><![CDATA[nomoney]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[money不够了喔，赶紧去挣吧！]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="4">
+				<item id="displayorder"><![CDATA[5]]></item>
+				<item id="title"><![CDATA[有效时间]]></item>
+				<item id="description"><![CDATA[单个炫彩用户名有效时间（单位：天）]]></item>
+				<item id="variable"><![CDATA[time]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[7]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="language">
+			<item id="scriptlang">
+				<item id="nocolor"><![CDATA[颜色参数有误，请返回检查！]]></item>
+				<item id="nolight"><![CDATA[发光不能为空，请返回填写！]]></item>
+				<item id="noprice"><![CDATA[价格不能为空，请返回填写！]]></item>
+				<item id="addok"><![CDATA[成功添加！]]></item>
+				<item id="error1"><![CDATA[参数非法，请检查后重试！]]></item>
+				<item id="delok"><![CDATA[删除成功！]]></item>
+				<item id="color"><![CDATA[字体颜色]]></item>
+				<item id="light"><![CDATA[背景颜色]]></item>
+				<item id="price"><![CDATA[价格]]></item>
+				<item id="effect"><![CDATA[效果]]></item>
+				<item id="handle"><![CDATA[操作]]></item>
+				<item id="title"><![CDATA[炫彩用户名]]></item>
+				<item id="edit"><![CDATA[修改]]></item>
+				<item id="delete"><![CDATA[删除]]></item>
+				<item id="new"><![CDATA[添加]]></item>
+				<item id="editok"><![CDATA[已经成功修改！]]></item>
+				<item id="shopclose"><![CDATA[非常抱歉，商店正在维护中，请稍后访问！]]></item>
+				<item id="cshop"><![CDATA[商店]]></item>
+				<item id="myusername"><![CDATA[我的用户名]]></item>
+				<item id="tipcshop"><![CDATA[赶紧挑选喜欢的用户名吧！]]></item>
+				<item id="cnametime"><![CDATA[有效时间]]></item>
+				<item id="cnametimed"><![CDATA[天]]></item>
+				<item id="lbuy"><![CDATA[购买]]></item>
+				<item id="cnamename"><![CDATA[炫彩用户名]]></item>
+				<item id="buyok"><![CDATA[购买成功!]]></item>
+				<item id="tipbuy"><![CDATA[注意：购买新的炫彩用户名会覆盖现有炫彩用户名！]]></item>
+				<item id="nocname"><![CDATA[您还没有炫彩用户名，赶紧到炫彩商店挑选一个吧!]]></item>
+				<item id="yiguoqi"><![CDATA[您的炫彩用户名已经过期了，快去挑选新的吧！]]></item>
+				<item id="buydate"><![CDATA[过期日期]]></item>
+			</item>
+		</item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+	</item>
+</root>

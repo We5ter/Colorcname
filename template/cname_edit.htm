@@ -1,0 +1,19 @@
+<form name="cpform" method="post" autocomplete="off" action="admin.php?action=plugins&operation=config&do=$pluginid&identifier=color_cname&pmod=cshop&id=$id&op=editok">
+<table class="tb tb2"><tbody><tr class="header"><th>id</th><th>$lc</th><th>$ll</th><th>$lp</th><th>$lh</th></tr>
+<tr>
+<td>$cname['id']</td>
+<td>    
+<input id="c1_v" type="text" class="txt" style="float:left; width:100px;" value="$cname['color']" name="color" onchange="updatecolorpreview('c1')">
+<input id="c1" onclick="c1_frame.location='static/image/admincp/getcolor.htm?c1|c1_v';showMenu({'ctrlid':'c1'})" type="button" class="colorwd" value="" style="background:$cname['color']"><span id="c1_menu" style="display: none"><iframe name="c1_frame" src="" frameborder="0" width="210" height="148" scrolling="no"></iframe></span>
+</td>
+<td>
+<input id="c2_v" type="text" class="txt" style="float:left; width:100px;" value="$cname['light']" name="light" onchange="updatecolorpreview('c2')">
+<input id="c2" onclick="c2_frame.location='static/image/admincp/getcolor.htm?c2|c2_v';showMenu({'ctrlid':'c2'})" type="button" class="colorwd" value="" style="background:$cname['light']"><span id="c2_menu" style="display: none"><iframe name="c2_frame" src="" frameborder="0" width="210" height="148" scrolling="no"></iframe></span>
+</td>
+<td>
+<input id="price" type="text" class="txt" style="float:left; width:100px;" value="$cname['price']" name="price">
+</td>
+<td>
+<input type="submit" class="btn" id="submit_newsubmit" name="newsubmit" value="$lx">
+</td></tr></table>
+</form>
