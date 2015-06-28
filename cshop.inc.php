@@ -2,7 +2,7 @@
 
 /**
  *          @starstudio
- *          @author zengzhiyang
+ *          @author zzy
  */
 
 if(!defined('IN_DISCUZ') || !defined('IN_ADMINCP')) {
