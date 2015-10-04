@@ -11,14 +11,12 @@ discuz炫彩用户名color_cname插件使用说明
 
 ##前台##
 
-![image](https://github.com/zephyruslove/color_cname/blob/master/color3.png)
+![image](https://github.com/zephyruslove/color_cname/blob/master/demo/color3.png)
 
-![image](https://github.com/zephyruslove/color_cname/blob/master/color4.png)
+![image](https://github.com/zephyruslove/color_cname/blob/master/demo/color4.png)
 
 ##管理中心后台设置##
 
-![image](https://github.com/zephyruslove/color_cname/blob/master/color1.png)
+![image](https://github.com/zephyruslove/color_cname/blob/master/demo/color1.png)
 
-![image](https://github.com/zephyruslove/color_cname/blob/master/color2.png)
-
-@author:zzy@starstudio
+![image](https://github.com/zephyruslove/color_cname/blob/master/demo/color2.png)
