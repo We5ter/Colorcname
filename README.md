@@ -1,7 +1,8 @@
-# 个人开源discuz插件之炫彩用户名
+# 炫彩用户名插件介绍
+
 discuz炫彩用户名color_cname插件使用说明
 
-0x01.Download zip 或者git clone https://github.com/zephyruslove/color_cname.git
+0x01.Download zip 或者git clone https://github.com/We5ter/color_cname.git
 
 0x02.上传至discuz论坛/upload/source/plugins/目录下
 
