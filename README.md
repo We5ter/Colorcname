@@ -1,6 +1,6 @@
 # 炫彩用户名插件介绍
 
-discuz炫彩用户名color_cname插件使用说明
+discuz炫彩用户名colorcname插件使用说明
 
 0x01.Download zip 或者git clone
 
